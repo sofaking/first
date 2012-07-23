@@ -1,0 +1,81 @@
+.clearfix:after {
+  clear: both;
+  content: ".";
+  display: block;
+  height: 0;
+  visibility: hidden;
+  font-size: 0;
+}
+
+div, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+header div#top-section {
+  border: 1px solid red;
+}
+
+header div#top-section * {
+  border: 1px solid green;
+  float: left;
+}
+
+header div#top-section div ul li {
+  list-style: none;
+  padding: 0 10px;
+}
+
+header div#top-section div#external ul li {
+  float: left;
+}
+
+header div#top-section div#external {
+  display: block;
+}
+
+header div#top-section div#account {
+  float: right;
+}
+
+header div#top-section img {
+  float: left;
+}
+
+header img#banner {
+  float: left;
+}
+
+nav {
+  float: left;
+  width: 100%;
+  border: 1px solid black;
+}
+
+nav * {
+  border: 1px solid orange;
+}
+
+nav ul {
+}
+
+nav ul li {
+  display: inline;
+  padding: 0 10px;
+}
+
+div#left-pane * {
+  border: 1px solid blue;
+}
+
+div#left-pane {
+  float: left;
+}
+
+div#right-pane * {
+  border: 1px solid green;
+}
+
+div#right-pane {
+  float: right;
+}
