@@ -82,12 +82,31 @@ nav ul li {
   padding: 0 10px;
 }
 
-div#left-pane * {
-  border: 1px solid blue;
-}
-
 div#left-pane {
   float: left;
+}
+
+div#left-pane div#main div#pie {
+  border: 1px solid blue;
+  float: left;
+  width: 300px;
+}
+
+div#left-pane div#main div#content {
+  border: 1px solid green;
+  float: left;
+}
+
+div#left-pane div#main div#content div.section {
+  float: left;
+}
+
+div#left-pane div#main div#content div.section div.section-name {
+  float: left;
+}
+
+div#left-pane div#main div#content div.section div.section-content {
+  float: right;
 }
 
 div#right-pane * {
